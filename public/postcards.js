@@ -8,7 +8,7 @@
 (function () {
   "use strict";
 
-  const BASE_URL = "http://localhost:8000/";
+  const BASE_URL = "https://post-jjf0.onrender.com/";
 
   /**
    * Initialize a sessionStorage for the cart.
