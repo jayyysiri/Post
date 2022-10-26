@@ -7,8 +7,8 @@
 
 "use strict";
 (function () {
-  const DEBUG = true;
-  const BASE_URL = "http://localhost:8000/";
+  const DEBUG = false;
+  const BASE_URL = "https://post-jjf0.onrender.com/";
   const CONTACT_URL = BASE_URL + "contact";
 
   function init() {
