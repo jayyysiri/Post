@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+     Name: Jay Siri
+     CS 132 Spring 2022
+     Date: May 9, 2022
+     This is the postcards.html file for the Post e-commerce website.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Post</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" />
+    <link rel="stylesheet" href="styles_postcards.css" />
+    <link rel="icon" href="post_favi.png" type="image/x-icon" />
+    <script defer src="postcards.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="index.html">Post</a></h1>
+      <nav>
+        <a href="postcards.html">Postcards</a>
+        <a href="promos.html">Promos</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart</a>
+      </nav>
+    </header>
+    <div id="mainBody">
+      <h2>Postcards</h2>
+      <p id="priceText">All postcards are $2.00</p>
+      <div id="buttonPanel">
+        <p class="active">All</p>
+        <p>Africa</p>
+        <p>Asia</p>
+        <p>Europe</p>
+        <p>North America</p>
+        <p>South America</p>
+      </div>
+      <div id="cards">
+        <!-- cards will be appended here-->
+      </div>
+      <p id="cite">All images and descriptions cited internally.</p>
+    </div>
+    <!-- Individual Product pages via DOM manipulation.-->
+    <div id="prodInfo"></div>
+  </body>
+</html>

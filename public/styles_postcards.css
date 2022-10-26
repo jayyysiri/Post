@@ -1,0 +1,199 @@
+/*
+    Name: Jay Siri
+    CS 132 Spring 2022
+    Date: April 21, 2022
+    This is the styles_postcards.css file for my postcard website.
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Overpass+Mono&family=Roboto+Mono:wght@300;400;500;600&display=swap");
+
+body {
+  padding-left: 65px;
+  margin: 0;
+  height: 100vmin;
+  background-color: #fff;
+}
+
+h1 a {
+  text-decoration: none;
+  margin-top: 20pt;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 38pt;
+  color: black;
+}
+
+h2 {
+  font-family: "Overpass Mono", monospace;
+  font-weight: 400;
+  font-size: 25pt;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: "Overpass Mono", monospace;
+  font-weight: 400;
+  font-size: 15pt;
+  padding: 10pt;
+  color: black;
+}
+
+nav a.active {
+  font-weight: 700;
+}
+
+body > section {
+  margin-right: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  padding-right: 65px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+#buttonPanel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#buttonPanel,
+#cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#buttonPanel p {
+  cursor: pointer;
+  margin-right: 15pt;
+  border: 2pt solid black;
+  border-radius: 30pt;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Overpass Mono", monospace;
+  font-weight: 400;
+  font-size: 15pt;
+  padding-left: 10pt;
+  padding-right: 10pt;
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  color: black;
+}
+
+#buttonPanel p.active {
+  font-weight: 700;
+  background-color: rgb(218, 218, 218);
+}
+
+#cards {
+  justify-content: space-evenly;
+  margin-left: 50pt;
+  margin-right: 80pt;
+  gap: 50pt;
+}
+
+#cards p {
+  font-family: "Overpass Mono", monospace;
+  font-weight: 400;
+  font-size: 15pt;
+  text-align: center;
+}
+
+#cards img {
+  width: 150pt;
+}
+
+#cards div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#buyButton {
+  border: 1pt solid black;
+  width: 50pt;
+  cursor: pointer;
+}
+
+#buyButton p {
+  text-decoration: none;
+  color: black;
+  font-weight: 5pt;
+  font-size: 12pt;
+}
+
+.hidden {
+  display: none;
+}
+
+#prodInfo {
+  padding-left: 25pt;
+}
+
+#prodInfo h2 {
+  font-family: "Overpass Mono", monospace;
+  font-weight: 400;
+  font-size: 35pt;
+}
+
+#prodInfo p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  font-size: 15pt;
+  margin-right: 150pt;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#prodInfo img {
+  max-width: 300pt;
+  max-height: 300pt;
+  border: 2pt solid black;
+  margin-right: 10%;
+}
+
+#prodInfo div {
+  display: flex;
+  flex-direction: row;
+}
+
+#buyItemButton {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border: 2pt solid black;
+  width: 150pt;
+  background-color: black;
+  color: #fff;
+}
+
+#confirmationText {
+  display: flex;
+  justify-content: center;
+}
+
+#buyItemDiv {
+  justify-content: center;
+}
+
+#mainBody > p{
+  font-family: "Overpass Mono", monospace;
+
+  font-size: 10pt;
+  color: grey;
+}
+
+#cite{
+  margin-top: 40pt;
+  text-align: center;
+}
