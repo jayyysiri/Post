@@ -6,7 +6,7 @@
  */
 "use strict";
 (function () {
-  const BASE_URL = "http://localhost:8000/";
+  const BASE_URL = "https://post-jjf0.onrender.com/";
 
   function init() {
     fetchData();
